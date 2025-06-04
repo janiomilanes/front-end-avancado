@@ -1,12 +1,42 @@
-# React + Vite
+# Aula 2 - Conceitos Intermediários em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte da Aula 2 do módulo de Front-End Avançado.
 
-Currently, two official plugins are available:
+Nele são explorados conceitos intermediários do React, como renderização condicional, uso de hooks, manipulação de imagens e componentes reutilizáveis com props.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Funcionalidades
+
+### ✅ Renderização com Funções
+O componente `RenderizandoComFuncoes` demonstra como utilizar funções JavaScript para decidir o que exibir dinamicamente na interface.
+
+### 🔁 Renderização Condicional com Props
+O componente `RenderizaBackOuFront` recebe uma prop `tecnologia` e exibe conteúdos diferentes com base no valor (por exemplo, `"react"` ou `"java"`).
+
+### 🖼️ Trabalhando com Imagens
+O componente `TrabalhandoComImagens` mostra como importar e exibir imagens locais dentro de um projeto React.
+
+### 🔢 Hook de Contador (`useState`)
+O componente `HookContador` implementa um contador simples utilizando o Hook `useState`, permitindo ao usuário incrementar ou decrementar valores.
+
+### 🎲 Gerador de Números da Mega-Sena
+O componente `HookMegaSena` gera números aleatórios, simulando um sorteio da Mega-Sena. Excelente exemplo de lógica combinada com hooks e manipulação de estado.
+
+## ▶️ Como executar o projeto localmente
+
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/janiomilanes/front-end-avancado.git
+cd front-end-avancado/aula2
+Instale as dependências: npm install
+Inicie o servidor de desenvolvimento: npm run dev
+Acesse no navegador: http://localhost:5173
+
+
